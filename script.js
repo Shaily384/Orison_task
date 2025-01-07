@@ -1,10 +1,8 @@
-document.getElementById('email-link').addEventListener('click', function() {
-    window.location.href = 'mailto:shailyrinait03@gmail.com';
+document.getElementById('buyNow').addEventListener('click', function() {
+    alert('Thank you for your purchase!');
 });
 
-document.getElementById('contact-link').addEventListener('click', function() {
-    window.scrollTo({
-        top: document.getElementById('contact').offsetTop,
-        behavior: 'smooth'
-    });
+document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for subscribing to our newsletter!');
 });
